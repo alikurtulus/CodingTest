@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <div class="container">
+        <h1>Savings Account</h1>
+        <div class="result-container">
+            <div class="input-container">
+                
+                <input type="number" id="openingSum" class="userInput" placeholder="Please Enter your opening money ..." />
+            </div>
+            <div class="input-container">
+                <input type="number" id="interestRate"  class="userInput" placeholder="Please Enter your interest rate ..."   />
+            </div>
+            <div class="input-container">
+                <input type="number" id="taxFreeLimit"  class="userInput" placeholder="Please Enter your tax free limit ..." />
+            </div>
+            <div class="input-container">
+                <input type="number" id="taxRate"  class="userInput" placeholder="Please Enter your tax rate ..."  />
+            </div>
+            <div class="input-container">
+                <input type="number" id="numMonths"  class="userInput" placeholder="Please Enter your number of months ..."  />
+            </div>
+            <button id="btn">Calculate</button>
+        </div>
+        <div class="result-container">
+            Result:  <label id="result"></label>
+        </div>
+    </div>
     <script src="./SavingAccountBalance.js"></script>
 </body>
 </html>

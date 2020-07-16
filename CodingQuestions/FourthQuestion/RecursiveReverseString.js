@@ -24,6 +24,7 @@ const reverseString = (str) => {
 
 }
 btnSend.addEventListener('click',(e) => {
+    e.preventDefault()
     const reverseStr = reverseString(getInput)
     resultShow.innerText = reverseStr
 

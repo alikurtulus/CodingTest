@@ -53,7 +53,9 @@ const longestSequence = (str) => {
 }
 // Click to see the result
 btnSend.addEventListener('click',(e)=> {
+    e.preventDefault()
     const result = longestSequence(getInput)
     console.log(result)
     resultShow.innerText = JSON.stringify(result)
+
 })

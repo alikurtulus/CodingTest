@@ -1,0 +1,33 @@
+.container{
+    border:1px solid black;
+    text-align: center;
+    margin:10rem auto;
+    padding: 1rem;
+    width: 600px;
+    border-radius: 25px;
+}
+#userInput{
+    height: 2rem;
+    width: 22rem;
+    border-radius: 25px;
+    outline: 0;
+    padding: 0.3rem;
+}
+#btn{
+    height: 2.7rem;
+    border-radius: 25px;
+    padding: 0.8rem;
+    background-color: cornflowerblue;
+    color: white;
+    outline: 0;
+}
+#showResult{
+    color:crimson;
+    padding-left: 1rem;
+    
+}
+.result-container{
+    text-align: center;
+    margin:2rem auto;
+    font-size: 1.5rem;
+}
